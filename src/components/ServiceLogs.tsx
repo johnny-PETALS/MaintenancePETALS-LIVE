@@ -297,7 +297,7 @@ export default function ServiceLogs({
                                         className="inline-flex items-center gap-1 px-3 py-1.5 bg-emerald-50 hover:bg-emerald-100 border border-emerald-150 text-emerald-800 font-bold text-[11px] rounded-xl transition-all cursor-pointer shadow-xs"
                                       >
                                         <FileText className="w-3.5 h-3.5 text-emerald-700" />
-                                        Descargar Reporte PDF
+                                        Download Report PDF
                                       </a>
                                     </div>
                                   )}
@@ -437,7 +437,7 @@ export default function ServiceLogs({
                           onClick={() => setPdfFile("")}
                           className="bg-white text-rose-600 px-1.5 py-0.5 rounded border border-slate-100 hover:bg-slate-50 cursor-pointer"
                         >
-                          Remover
+                          Remove
                         </button>
                       </div>
                     )}

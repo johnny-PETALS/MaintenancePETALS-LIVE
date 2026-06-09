@@ -578,7 +578,7 @@ export default function MaintenanceSchedule({
                           onClick={() => setServicePdf("")}
                           className="bg-white/85 text-rose-600 px-2 py-0.5 rounded-lg border border-slate-200 cursor-pointer"
                         >
-                          Remover
+                          Remove
                         </button>
                       </div>
                     )}

@@ -339,7 +339,7 @@ export default function WarehouseList({
                   </div>
 
                   <div className="space-y-1.5">
-                    <label className="text-xs font-bold text-slate-600 block">Capacity (Square Meters - m²)</label>
+                    <label className="text-xs font-bold text-slate-600 block">Capacity (Square Metres - m²)</label>
                     <input
                       type="number"
                       placeholder="e.g. 10000"
@@ -454,7 +454,7 @@ export default function WarehouseList({
                   </div>
 
                   <div className="space-y-1.5">
-                    <label className="text-xs font-bold text-slate-600 block">Capacity (Square Meters - m²)</label>
+                    <label className="text-xs font-bold text-slate-600 block">Capacity (Square Metres - m²)</label>
                     <input
                       type="number"
                       className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:border-blue-400 focus:outline-hidden"

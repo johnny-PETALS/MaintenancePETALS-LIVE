@@ -251,7 +251,7 @@ export default function ContractList({
                       download={`Contract-${cnt.contractNumber}.pdf`}
                       className="px-2.5 py-1 bg-emerald-50 hover:bg-emerald-100 text-emerald-800 border border-emerald-200 rounded-lg text-xs font-bold inline-flex items-center gap-1.5 transition-colors cursor-pointer"
                     >
-                      <FileText className="w-3.5 h-3.5 text-emerald-700" /> Descargar PDF
+                      <FileText className="w-3.5 h-3.5 text-emerald-700" /> Download PDF
                     </a>
                   )}
                 </div>
@@ -406,7 +406,7 @@ export default function ContractList({
                           onClick={() => setPdfFile("")}
                           className="bg-white/85 text-rose-605 px-2 py-0.5 rounded-lg border border-slate-200 cursor-pointer"
                         >
-                          Remover
+                          Remove
                         </button>
                       </div>
                     )}
@@ -589,7 +589,7 @@ export default function ContractList({
                           onClick={() => setPdfFile("")}
                           className="bg-white/85 text-rose-605 px-2 py-0.5 rounded-lg border border-slate-200 cursor-pointer"
                         >
-                          Remover
+                          Remove
                         </button>
                       </div>
                     )}

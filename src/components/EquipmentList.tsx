@@ -729,7 +729,7 @@ export default function EquipmentList({
                         onClick={() => setFormImageUrl("")}
                         className="text-xs text-rose-500 font-semibold px-2 py-1 hover:bg-rose-55 rounded cursor-pointer"
                       >
-                        Quitar
+                        Remove
                       </button>
                     </div>
                   )}
@@ -741,13 +741,13 @@ export default function EquipmentList({
                   />
                   <input
                     type="url"
-                    placeholder="O proporciona URL directa HTTPS de la foto (dejar vacío para usar foto por defecto)..."
+                    placeholder="Or provide direct HTTPS URL of the photo (leave blank to use default category photo)..."
                     className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:border-blue-400 focus:outline-hidden"
                     value={formImageUrl}
                     onChange={(e) => setFormImageUrl(e.target.value)}
                   />
                 </div>
-                <span className="text-[10px] text-slate-400 block mt-1">Sube una foto desde tu computadora o introduce una URL HTTPS pública (Unsplash, Imgur, etc.)</span>
+                <span className="text-[10px] text-slate-400 block mt-1">Upload a photo from your computer or enter a public HTTPS URL (Unsplash, Imgur, etc.)</span>
               </div>
 
               <div className="space-y-1.5">
@@ -953,7 +953,7 @@ export default function EquipmentList({
                         onClick={() => setFormImageUrl("")}
                         className="text-xs text-rose-500 font-semibold px-2 py-1 hover:bg-rose-55 rounded cursor-pointer"
                       >
-                        Quitar
+                        Remove
                       </button>
                     </div>
                   )}
@@ -965,13 +965,13 @@ export default function EquipmentList({
                   />
                   <input
                     type="url"
-                    placeholder="O proporciona URL directa HTTPS de la foto (dejar vacío para usar foto por defecto)..."
+                    placeholder="Or provide direct HTTPS URL of the photo (leave blank to use default category photo)..."
                     className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:border-blue-400 focus:outline-hidden"
                     value={formImageUrl}
                     onChange={(e) => setFormImageUrl(e.target.value)}
                   />
                 </div>
-                <span className="text-[10px] text-slate-400 block mt-1">Sube una foto desde tu computadora o introduce una URL HTTPS pública (Unsplash, Imgur, etc.)</span>
+                <span className="text-[10px] text-slate-400 block mt-1">Upload a photo from your computer or enter a public HTTPS URL (Unsplash, Imgur, etc.)</span>
               </div>
 
               <div className="space-y-1.5">
