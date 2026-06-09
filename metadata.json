@@ -1,0 +1,8 @@
+{
+  "name": "AssetTrack Petals",
+  "description": "A comprehensive portal to manage warehouse assets, scheduled maintenance, service logs, contracts, and vendors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
